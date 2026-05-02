@@ -39,9 +39,17 @@ from typing import Any
 DILUTION_FACTORS: dict[str, float] = {
     "stirred": 0.25,   # stirred over ice ~25% water gain
     "shaken": 0.50,    # shaken with ice ~50% water gain
-    "built": 0.15,     # built in glass with ice, light dilution
+    "built": 0.15,     # built/assembled in glass with ice, light dilution
     "blended": 0.75,   # blended with ice, heavy dilution
     "none": 0.0,       # batched dry/pre-mix, no ice contact yet
+}
+
+METHOD_DESCRIPTIONS: dict[str, str] = {
+    "stirred": "Stirred over ice (e.g., martini, negroni)",
+    "shaken": "Shaken with ice (e.g., margarita, daiquiri)",
+    "built": "Built/assembled in the glass with ice (e.g., rum & coke, aperol spritz)",
+    "blended": "Blended with ice (e.g., frozen drinks, smoothies)",
+    "none": "Pre-batched with no ice contact (dilute at service)",
 }
 
 # ABV thresholds for moderation flag (final post-dilution ABV).
@@ -200,7 +208,7 @@ def format_report(
     lines: list[str] = []
     lines.append(f"# {recipe.name} — batch for {servings}")
     lines.append("")
-    lines.append(f"**Method:** {recipe.method}  ")
+    lines.append(f"**Method:** {METHOD_DESCRIPTIONS[recipe.method]}  ")
     lines.append(f"**Dilution factor:** +{int(DILUTION_FACTORS[recipe.method] * 100)}% volume from ice melt")
     lines.append("")
     lines.append("## Scaled ingredients")
