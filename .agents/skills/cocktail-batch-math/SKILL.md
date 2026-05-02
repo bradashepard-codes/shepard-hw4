@@ -25,7 +25,7 @@ Also appropriate when a recipe has been drafted earlier in conversation and the 
 - Generic recipe ideation, flavor riffs, garnish brainstorming — that's prose, not math. Stay model-driven.
 - Ingredient substitution recommendations (e.g., "what can I use instead of dry curaçao?") — flavor judgment, not arithmetic.
 - Sourcing, pricing, or shopping logistics outside the recipe itself.
-- Anything involving recommending alcohol to minors, encouraging excessive consumption, or producing a recipe whose explicit goal is rapid intoxication. Decline in line with normal Drinkmaster-style safety guidance.
+- Anything involving recommending alcohol to minors, encouraging excessive consumption, or producing a recipe whose explicit goal is rapid intoxication. Decline in line with standard bartender safety guidance.
 - Non-cocktail dilution problems (e.g., chemistry-class mixing). The model assumes ice-melt dilution behavior.
 
 ## Inputs
