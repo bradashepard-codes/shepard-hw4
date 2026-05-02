@@ -4,7 +4,7 @@ Coursework: build one narrowly scoped, reusable AI skill where a Python script i
 
 **Skill:** `cocktail-batch-math` — scale a single-serving cocktail recipe to N servings, compute pre- and post-dilution ABV with a method-specific dilution model, and check whether a requested target final ABV is even physically achievable.
 
-**Walkthrough video:** _link to be added_
+**Walkthrough video:** https://youtu.be/EKNvPq2XMnY
 
 ## Why this skill
 
