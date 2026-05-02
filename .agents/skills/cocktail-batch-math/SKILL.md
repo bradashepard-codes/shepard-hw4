@@ -66,7 +66,7 @@ CLI flags layered on top of the file:
 3. **Write the recipe JSON.** Save it to a temporary path or under `references/examples/` if the user wants it preserved.
 4. **Run the script:**
    ```bash
-   python .agents/skills/cocktail-batch-math/scripts/batch_scale.py \
+   python3 .agents/skills/cocktail-batch-math/scripts/batch_scale.py \
        <recipe.json> --servings <N> [--method ...] [--target-abv ...] [--units ml|oz]
    ```
 5. **Pass through the script's report verbatim** as the deterministic core of your reply. Add a one- or two-line craft note above (style, garnish, glassware) and any safety/moderation guidance the script flagged.

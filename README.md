@@ -39,7 +39,7 @@ The skill is auto-discovered by Claude Code (or any agent that scans `.agents/sk
 Example one-liner direct script use:
 
 ```sh
-python .agents/skills/cocktail-batch-math/scripts/batch_scale.py \
+python3 .agents/skills/cocktail-batch-math/scripts/batch_scale.py \
     .agents/skills/cocktail-batch-math/references/examples/old-fashioned.json \
     --servings 24 --target-abv 30 --units oz
 ```
