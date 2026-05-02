@@ -1,0 +1,9 @@
+{
+  "name": "Old Fashioned",
+  "method": "stirred",
+  "ingredients": [
+    {"name": "Bourbon",           "volume_ml": 60,  "abv": 45},
+    {"name": "Demerara syrup",    "volume_ml": 7.5, "abv": 0},
+    {"name": "Angostura bitters", "volume_ml": 1,   "abv": 44}
+  ]
+}

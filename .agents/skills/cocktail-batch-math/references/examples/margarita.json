@@ -1,0 +1,10 @@
+{
+  "name": "Margarita",
+  "method": "shaken",
+  "ingredients": [
+    {"name": "Blanco tequila",  "volume_oz": 2,    "abv": 40},
+    {"name": "Lime juice",      "volume_oz": 1,    "abv": 0},
+    {"name": "Cointreau",       "volume_oz": 0.75, "abv": 40},
+    {"name": "Agave syrup",     "volume_oz": 0.25, "abv": 0}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Aperol Spritz",
+  "method": "built",
+  "ingredients": [
+    {"name": "Aperol",     "volume_ml": 60, "abv": 22},
+    {"name": "Prosecco",   "volume_ml": 90, "abv": 11},
+    {"name": "Soda water", "volume_ml": 30, "abv": 0}
+  ]
+}
